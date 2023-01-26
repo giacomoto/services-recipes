@@ -15,7 +15,7 @@
         "config/packages/luckyseven_services.yaml": {
           "contents": [
             "luckyseven_services:",
-            "      service_entity: 'App\\Entity\\Service'"
+            "    service_entity: 'App\\Entity\\Service'"
           ],
           "executable": false
         }
