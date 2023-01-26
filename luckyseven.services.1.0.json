@@ -1,0 +1,17 @@
+{
+  "manifests": {
+    "luckyseven/services": {
+      "manifest": {
+        "bundles": {
+          "Luckyseven\\Bundle\\LuckysevenServicesBundle\\LuckysevenServicesBundle": [
+            "all"
+          ]
+        },
+        "copy-from-recipe": {
+          "src/": "%SRC_DIR%/"
+        }
+      },
+      "ref": "5b2157fed13546fec5765e42f552ad36529a07a7"
+    }
+  }
+}

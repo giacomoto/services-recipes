@@ -1,0 +1,14 @@
+{
+    "recipes": {
+        "luckyseven/services": [
+            "1.0"
+        ]
+    },
+    "branch": "main",
+    "is_contrib": true,
+    "_links": {
+        "repository": "github.com/giacomoto/services-recipes",
+        "origin_template": "{package}:{version}@github.com/giacomoto/services-recipes:main",
+        "recipe_template": "https://api.github.com/repos/giacomoto/services-recipes/contents/{package_dotted}.{version}.json"
+    }
+}
