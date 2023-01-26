@@ -11,7 +11,7 @@
           "src/Entity/Service.php": "%SRC_DIR%/Entity/Service.php",
           "src/Entity/EntityService.php": "%SRC_DIR%/Entity/EntityService.php",
           "src/Repository/ServiceRespository.php": "%SRC_DIR%/Repository/ServiceRespository.php",
-          "src/Repository/EntityServiceRespository.php": "%SRC_DIR%/Repository/EntityServiceRespository.php"
+          "src/Repository/EntityServiceRepository.php": "%SRC_DIR%/Repository/EntityServiceRepository.php"
         }
       },
       "ref": "5b2157fed13546fec5765e42f552ad36529a07a7"
