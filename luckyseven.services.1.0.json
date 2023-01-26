@@ -7,14 +7,20 @@
             "all"
           ]
         },
-        "copy-from-package": {
-          "src/Entity/Service.php": "%SRC_DIR%/Entity/Service.php",
-          "src/Entity/EntityService.php": "%SRC_DIR%/Entity/EntityService.php",
-          "src/Repository/ServiceRespository.php": "%SRC_DIR%/Repository/ServiceRespository.php",
-          "src/Repository/EntityServiceRepository.php": "%SRC_DIR%/Repository/EntityServiceRepository.php"
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
         }
       },
-      "ref": "5b2157fed13546fec5765e42f552ad36529a07a7"
+      "files": {
+        "config/packages/luckyseven_services.yaml": {
+          "contents": [
+            "luckyseven_services:",
+            "  service_entity: 'App\\Entity\\Service'"
+          ],
+          "executable": false
+        }
+      },
+      "ref": "5b2157fed13546fec5765e42f552ad36529a07b7"
     }
   }
 }
